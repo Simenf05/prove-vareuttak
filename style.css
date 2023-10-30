@@ -19,3 +19,15 @@ div {
 #vareVelging {
     display: none;
 }
+
+#kvVarer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#kvVarer div {
+    border: 1px solid gray;
+    border-radius: 7%;
+    padding: 10px;
+    min-width: 200px;
+}   
